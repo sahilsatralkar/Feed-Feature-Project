@@ -11,6 +11,7 @@
 		1C4373C82A08DF86004A766C /* FeedFeatureProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4373BD2A08DF86004A766C /* FeedFeatureProject.framework */; };
 		1C4373CD2A08DF86004A766C /* FeedFeatureProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4373CC2A08DF86004A766C /* FeedFeatureProjectTests.swift */; };
 		1C4373CE2A08DF86004A766C /* FeedFeatureProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4373C02A08DF86004A766C /* FeedFeatureProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C4373D82A08DFC2004A766C /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4373D72A08DFC2004A766C /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		1C4373C12A08DF86004A766C /* FeedFeatureProject.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FeedFeatureProject.docc; sourceTree = "<group>"; };
 		1C4373C72A08DF86004A766C /* FeedFeatureProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedFeatureProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4373CC2A08DF86004A766C /* FeedFeatureProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedFeatureProjectTests.swift; sourceTree = "<group>"; };
+		1C4373D72A08DFC2004A766C /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				1C4373C02A08DF86004A766C /* FeedFeatureProject.h */,
 				1C4373C12A08DF86004A766C /* FeedFeatureProject.docc */,
+				1C4373D72A08DFC2004A766C /* FeedItem.swift */,
 			);
 			path = FeedFeatureProject;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4373D82A08DFC2004A766C /* FeedItem.swift in Sources */,
 				1C4373C22A08DF86004A766C /* FeedFeatureProject.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +405,7 @@
 		1C4373D52A08DF86004A766C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
@@ -416,6 +421,7 @@
 		1C4373D62A08DF86004A766C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
